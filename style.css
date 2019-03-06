@@ -61,6 +61,7 @@
     border-bottom: 3px solid #fcfcfc;
   }
 
+
   h5 {
     font-family: Georgia, Times, "Times New Roman", serif;
     background-color: rgb(76, 89, 133);
@@ -100,13 +101,31 @@ li {
     color: #ffffff;
     color: #faf8f8;
     text-align: center;
-    background: #4c5985;
-    border-top: 6px solid rgb(41, 44, 53);
+    background: #070707;
+    border-top: 2px solid red;
     height: 50px;
   }
 
   
-
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    background-image: radial-gradient(#666, #333);
+  }
+  
+  #instructions {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+  }
   
 
   
